@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*
+        [class] {color: red;}
+        [class=ciao] {color: pink;}
+        [class*=lo] {color: blue;}
+        */
+        h1 {color: olive;}
+        div span {color:  magenta;}
+        div > p {color:  maroon;}
+        h1 + h2 { color:  aqua; } /* 인접한 경우에만 적용*/
+        h1 ~ h2 { color:  yellow; } /* 전부 적용-*/
+    </style>
+</head>
+<body>
+    
+    <div>
+        <h1>hello css!!</h1>
+        <h2><p>hello css!</p></h2>
+        <p>Lorem, ipsum dolor <span>sit amet consectetur</span> adipisicing elit. At beatae sit, dolore animi laborum autem facilis tenetur perspiciatis id natus non quibusdam, similique, eaque aut labore aperiam amet laboriosam reprehenderit?</p>
+        <h2><p>hello css!</p></h2>
+    </div>
+    <span>sit amet consectetur</span>
+
+
+</body>
+</html>
